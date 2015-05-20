@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "css": [ "css.css" ],
+      "js": [ "jquery.min.js", "onload.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Like android's scroll bars .像android的滚动条",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDk686npShdCUeSksS1F4Ja8SttXW0Hges8rM9Osv0MV0bGu/fwVwsLD3coGyPpXQTyFH0I5T3cH64FfVWu/OiRvoG5kwP2fKsTgamNiZi0Lq5l/DM9tbQ8Et6gFMV1pG0sc6dQ3O0A6VPEsxAxEFYgZkD4Ou+6XTbNx8IQA6trPwIDAQAB",
+   "manifest_version": 2,
+   "name": "scroll style",
+   "permissions": [ "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.2"
+}
